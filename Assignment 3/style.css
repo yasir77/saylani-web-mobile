@@ -1,0 +1,39 @@
+*{
+    font-size: 16px;
+}
+
+.title{
+   color: #5f36be; 
+   text-align: center;
+   font-weight: 900;
+   font-size: 28px;
+}
+.sub-heading{
+    color: rgb(26, 89, 224);
+    font-weight: 800;
+    font-size: 20px;
+}
+#p1{
+    color: salmon;
+
+}
+#p2{
+    color: seagreen;
+}
+table{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+tr td{
+    border: 1px solid gray;
+}
+h2+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p~p{
+    text-align: center;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}

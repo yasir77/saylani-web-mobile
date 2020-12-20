@@ -1,0 +1,40 @@
+*{
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
+a{
+    color:orange;
+    font-size: 22px;
+    text-decoration: none;
+}
+.title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    color: darkslateblue;
+
+}
+.assignment-outer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.assignment{
+    text-align: center;
+    min-width: 40%;
+    margin: 20px;
+    color:white;
+    background-color: rgb(70, 105, 199);
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px;
+}
+@media only screen and (max-width: 768px){
+    .assignment{
+        width: 80%;
+    }
+}

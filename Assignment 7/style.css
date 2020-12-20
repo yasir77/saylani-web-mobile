@@ -1,0 +1,93 @@
+* {
+  /* color: black; */
+  box-sizing: border-box !important;
+}
+.header {
+  background-color: #393e46;
+  height: 100px;
+}
+.header .contact-btn {
+  border: 1px solid white;
+  border-radius: 5em;
+  color: white;
+  width: 50%;
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  font-family: Tisa;
+}
+.title {
+  height: 550px;
+  text-align: center;
+  background-color: #393e46;
+  color: white;
+}
+.intro {
+  border-top: 1px solid #383838;
+  padding-top: 100px;
+  background-color:#9A8B4F;
+  color: white;
+}
+.intro-inner {
+  height: 300px;
+  text-align: center;
+}
+.specialities {
+  color: white;
+  background-color: #393e46;
+}
+.specialities-inner {
+  /* padding-top:10px; */
+  border: 1px solid rgb(110, 109, 109);
+  border-radius: 0.5em;
+  position: relative;
+  top: -100px;
+  background-color: #393e46;
+  text-align: center;
+}
+.specialities-inner h6,
+h5 {
+  color: orange;
+}
+.vl {
+  border-left: 1px solid rgb(110, 109, 109);
+  /* height: 500px; */
+  max-height: 100%;
+}
+.recent-work {
+  background-color: #393e46;
+  text-align: center;
+  color: white;
+  padding:20px;
+}
+.recent-work h1{
+    color: orange;
+}
+.recent-work-items div{
+    margin:10px 0px;
+}
+.recent-work-items img{
+    width: 100%;
+}
+footer{
+    height: 400px;
+    background-color: #9A8B4F;
+    color: white;
+    text-align: center;
+
+}
+@media only screen and (max-width: 1200px) {
+  .header .contact-btn {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header .contact-btn {
+    border: 1px solid white;
+    border-radius: 5em;
+    color: white;
+    width: 100%;
+    font-family: Tisa;
+  }
+}

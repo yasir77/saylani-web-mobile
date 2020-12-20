@@ -1,0 +1,118 @@
+.bg-black {
+  background-color: black;
+}
+.nav-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.1;
+  width: auto;
+}
+.nav-item a {
+  color: grey;
+}
+
+select {
+  background-color: black;
+  color: grey;
+  border: none;
+}
+.message-outer {
+  background-color: black;
+  color: white;
+}
+.message {
+  padding: 40px;
+}
+
+#ul {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.section3 {
+  background-image: url(https://kubernetes.io/images/texture.png);
+  background-size: cover;
+  background-color: rgb(73, 69, 69);
+  color: white;
+  padding: 20px;
+}
+.section3-inner div {
+  width: 70%;
+  margin: 0px auto;
+
+  text-align: center;
+}
+
+.section4 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.section4 h6 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.section4 p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.7;
+}
+.text {
+  color: white;
+}
+.text-center {
+  text-align: center;
+}
+.section5 {
+  background-image: url(https://kubernetes.io/_common-resources/images/kub_video_banner_homepage.jpg);
+  background-size: cover;
+  padding: 40px;
+  background-repeat: no-repeat;
+}
+.section5 .btn-light {
+  width: 140px;
+  font-weight: 600;
+  color: rgb(42, 134, 240);
+}
+.section6 {
+  background-color: whitesmoke;
+  padding: 40px;
+}
+.section6 h4 {
+  color: rgb(62, 137, 235);
+  font-size: 22px;
+  font-weight: lighter;
+  letter-spacing: 1.2px;
+}
+.section7 {
+  padding: 40px;
+}
+a {
+  color: rgb(50, 119, 247);
+}
+.section7 .container div {
+  margin: 10px 0px;
+}
+.section8 {
+  text-align: center;
+  background-color: whitesmoke;
+
+  font-size: 20px;
+  padding: 50px;
+  height: 300px;
+  margin: 0px -15px;
+}
+.footer .row div {
+  margin-top: 10px;
+}
+.footer .row {
+  width: 95%;
+  justify-content: space-evenly;
+  margin: 0px auto;
+}
+.footer {
+  background-color: rgb(73, 69, 69);
+  color: white;
+}
+.info {
+  font-size: 10px;
+  text-align: center;
+}
